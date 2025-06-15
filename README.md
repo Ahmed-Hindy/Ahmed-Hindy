@@ -1,29 +1,24 @@
-# AxeFx_tools
-this repo is in active development. Will be constantly updated by any new tools
+Welcome to my GitHub!\
+Here are some of my projects. All feedback is welcome. :)
 
 
 
-## [Material Processor](scripts/python/Material_Processor)
-a WIP Houdini tool for Ingestion/ Conversions of any kind of material in Houdini or .usd files\
-Universal support for other dccs and .usd file format will be added in near future.
+## [AxeFx_tools](https://github.com/Ahmed-Hindy/AxeFx_tools)
+This repo is for personal use. You might find the [otls](otls) helpful. Please check my other repo below.
+
+    to install:
+    1. Clone this repo.
+    2. Copy provided 'Axe_tools.json' to your houdini user folder.
+    3. Edit the "CUSTOMPACKAGES" inside the .json file to point to 
+       the folder where you cloned this repo.
+
+<br/>
+
+
+## [Material Processor](https://github.com/Ahmed-Hindy/Materials-Processor)
+a WIP 3D Materials tool for Ingestion, Standardization, and Conversion for complex multi-input/ multi-output materials\
+in various DCCs. Also supports USD file format.\
+Currently in pre-release with support for only Arnold, MaterialX, PrincipledShader in Houdini.\
+Has basic support also for USD.
 
 ![Material_processor_v004](https://github.com/Ahmed-Hindy/AxeFx_tools/assets/23151881/0a330312-8809-44bf-b6a9-35e233c57eda)
-
-
-### Features
-- [x] Drag and drop mat nodes into dropping area on the Application.
-- [x] Ingests Most Materials -Principled, Arnold and MTLX for now-.
-- [x] Convert to any chosen render engine.
-- [x] has it's own logging mechanisms.
-- [x] pip-standard coding practices as much as possible.
-- [x] [NEW] added ingestions of usdPreview materials in Solaris.
-- [x] [NEW] added conversion to Arnold + UsdPreview material in Solaris.
-- [x] [NEW] added auto reassigning to Solaris prims which had the old material.
-
-
-### Roadmap
-- [ ] Add support for .usd files
-- [ ] Extend functionality to other apps like Substance Painter, Maya and blender.
-- [ ] Add Changelog.
-
-
