@@ -1,16 +1,12 @@
-Welcome to my GitHub!\
-Here are some of my projects. All feedback is welcome. :)
+# Welcome to my GitHub!
+ Here are some of my projects. All feedback is welcome. :)
 
+<br/>
+<br/>
 
 
 ## [AxeFx_tools](https://github.com/Ahmed-Hindy/AxeFx_tools)
-This repo is for personal use. You might find the [otls](otls) helpful. Please check my other repo below.
-
-    to install:
-    1. Clone this repo.
-    2. Copy provided 'Axe_tools.json' to your houdini user folder.
-    3. Edit the "CUSTOMPACKAGES" inside the .json file to point to 
-       the folder where you cloned this repo.
+This repo is for personal use. Please check my other repos below.
 
 <br/>
 
