@@ -8,7 +8,7 @@
 ## [AxeFx_tools](https://github.com/Ahmed-Hindy/AxeFx_tools)
 This repo is for personal use. Please check my other repos below.
 
-<br/>
+
 
 
 ## [Material Processor](https://github.com/Ahmed-Hindy/Materials-Processor)
@@ -17,4 +17,13 @@ in various DCCs. Also supports USD file format.\
 Currently in pre-release with support for only Arnold, MaterialX, PrincipledShader in Houdini.\
 Has basic support also for USD.
 
-![Material_processor_v004](https://github.com/Ahmed-Hindy/AxeFx_tools/assets/23151881/0a330312-8809-44bf-b6a9-35e233c57eda)
+
+
+
+
+## [Arnold Obj Lights to Solaris Translator](https://github.com/Ahmed-Hindy/Arnold-husd-translator)
+- Translates Obj Arnold lights into Solaris USD prims with all its properties.
+- In a Solaris scene, drop a 'Scene Import (Lights)' LOP node.
+
+
+
