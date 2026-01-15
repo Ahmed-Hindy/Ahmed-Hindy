@@ -9,6 +9,10 @@
 This Docker stack runs Kitsu (frontend) + Zou (backend) + Postgres + Traefik using Docker Compose.
 
 
+## [Render Kit](https://github.com/Ahmed-Hindy/renderkit)
+VFX-focused image-sequence to video converter with OIIO, OCIO, CRF quality control, and CLI/UI.
+
+
 ## [Material Processor](https://github.com/Ahmed-Hindy/Materials-Processor)
 A tool for Ingestion, Standardization, and Conversion tool for all kinds of Material Networks for complex multi-input/ multi-output materials in various DCCs.
 
