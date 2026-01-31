@@ -70,6 +70,13 @@ a Houdini script that enables external drag-and-drop from file browser directly 
 
 ## 🎵 Personal Projects
 
+### [Hitman ItemSpawner](https://github.com/Ahmed-Hindy/Hitman-ItemSpawner)
+A mod for Hitman 3 that allows spawning items in-game, built on top of ZHM Mod SDK.
+
+**Tech Stack:** `C++` `ZHMModSDK`
+
+---
+
 ### [AxeFx_tools](https://github.com/Ahmed-Hindy/AxeFx_tools)
 Personal tools and utilities. Check out my other repositories for production-ready VFX tools!
 
