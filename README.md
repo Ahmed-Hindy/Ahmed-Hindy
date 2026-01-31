@@ -4,9 +4,12 @@
 <br/>
 
 
+## [Production-Ready Kitsu Docker Image](https://github.com/Ahmed-Hindy/Kitsu-Docker-Prod)
+A Complete and Production-Ready Kitsu setup, ready to deploy with few docker commands. 
 
-## [Kitsu Docker MultiContainer](https://github.com/Ahmed-Hindy/Kitsu-Docker-Prod)
-This Docker stack runs Kitsu (frontend) + Zou (backend) + Postgres + Traefik using Docker Compose.
+
+## [Substance Painter USD Creator](https://github.com/Ahmed-Hindy/Substance-Painter-Usd-Creator)
+A lightweight Substance Painter plugin that creates ASWF-compliant USD Assets.
 
 
 ## [Render Kit](https://github.com/Ahmed-Hindy/renderkit)
