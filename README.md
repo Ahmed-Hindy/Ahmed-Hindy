@@ -1,8 +1,15 @@
 # Ahmed Hindy
 
-**VFX Pipeline Developer** | Building tools for the next generation of visual effects workflows
+**VFX Pipeline Developer**
+`USD` • `Python` • `AYON` • `Kitsu` • `Houdini` • `Arnold`
 
-I specialize in creating production-ready tools and pipelines for VFX and animation studios, with a focus on USD, material workflows, and pipeline automation. All feedback is welcome! 🙂
+---
+
+I build production-ready VFX pipeline tools with a strong focus on **USD-centric workflows**, **Houdini/Solaris**, and **studio pipeline integration**. 
+
+I have hands-on experience integrating **CGWire Kitsu** and **AYON**-style workflows into real production pipelines, bridging asset management, automation, and DCC tools in scalable studio environments.
+
+My work is focused on solving production challenges: asset standardization, material interoperability, automation, and reliable deployment across teams.
 
 ---
 
