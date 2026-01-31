@@ -21,8 +21,8 @@ VFX-focused image-sequence to video converter with OIIO, OCIO, CRF quality contr
 **Tech Stack:** `Python` `OpenImageIO` `OpenColorIO` `Qt` `FFmpeg`
 
 **Key Features:**
-- Color-managed conversions
-- CRF quality control
+- Zero dependencies. Everything bundled. 82MB package size
+- Artist-friendly UI
 - Batch processing with UI and CLI modes
 
 ---
@@ -43,6 +43,8 @@ A DCC-agnostic tool for ingestion, standardization, and conversion of material n
 
 **Tech Stack:** `Python` `USD` `MaterialX` `Arnold` `Redshift`
 
+**Key Features:**
+- supports multiple render engines for both input and output.
 ---
 
 ## 🎬 Production Tools
@@ -50,7 +52,7 @@ A DCC-agnostic tool for ingestion, standardization, and conversion of material n
 ### [Production-Ready Kitsu Docker Image](https://github.com/Ahmed-Hindy/Kitsu-Docker-Prod)
 A complete and production-ready Kitsu setup, ready to deploy with a few Docker commands.
 
-**Tech Stack:** `Docker` `Kitsu` `Traefik` `FFMPEG`
+**Tech Stack:** `Docker` `Kitsu` `Traefik` `FFMPEG` `Auto-Backups`
 
 **Key Features:**
 - Multi-container orchestration
