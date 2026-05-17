@@ -27,6 +27,18 @@ VFX-focused image-sequence to video converter with OIIO, OCIO, CRF quality contr
 
 ---
 
+### [h_denoise_utils](https://github.com/Ahmed-Hindy/h_denoise_utils)
+A small denoiser app for VFX that denoises multipart EXR sequences with a bundled NVIDIA OptiX denoiser.
+
+**Tech Stack:** `Python` `Qt` `OpenEXR` `NVIDIA OptiX` `PyInstaller`
+
+**Key Features:**
+- Batch denoise EXR sequences from GUI or headless API
+- Auto-detect AOVs and preserve source OpenEXR metadata
+- Zero dependencies
+
+---
+
 ### [Substance Painter USD Creator](https://github.com/Ahmed-Hindy/Substance-Painter-Usd-Creator)
 A lightweight Substance Painter plugin that creates ASWF-compliant USD Assets.
 
