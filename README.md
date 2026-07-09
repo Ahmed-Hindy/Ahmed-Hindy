@@ -1,6 +1,11 @@
 # Ahmed Hindy
 
-[ahmed-hindy.github.io](https://ahmed-hindy.github.io/)
+<p>
+  <a href="https://ahmed-hindy.github.io/"><img src="https://cdn.simpleicons.org/googlechrome/4285F4" width="22" height="22" alt="Portfolio" title="Portfolio"></a>
+  <a href="https://github.com/Ahmed-Hindy"><img src="https://cdn.simpleicons.org/github/181717" width="22" height="22" alt="GitHub" title="GitHub"></a>
+  <a href="https://www.linkedin.com/in/ahmed-hindy96"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" width="22" height="22" alt="LinkedIn" title="LinkedIn"></a>
+  <a href="mailto:Ahmed.hindy96@gmail.com"><img src="https://cdn.simpleicons.org/gmail/EA4335" width="22" height="22" alt="Email" title="Email"></a>
+</p>
 
 **VFX Pipeline Developer**
 `USD` • `Python` • `AYON` • `Kitsu` • `Houdini` • `Arnold`
@@ -14,6 +19,15 @@ I have hands-on experience integrating **CGWire Kitsu** and **AYON**-style workf
 My work is focused on solving production challenges: asset standardization, material interoperability, automation, and reliable deployment across teams.
 
 ---
+
+<p>
+  <img src="https://cdn.simpleicons.org/python/3776AB" width="28" height="28" alt="Python" title="Python">
+  <img src="https://cdn.simpleicons.org/docker/2496ED" width="28" height="28" alt="Docker" title="Docker">
+  <img src="https://cdn.simpleicons.org/git/F05032" width="28" height="28" alt="Git" title="Git">
+  <img src="https://cdn.simpleicons.org/qt/41CD52" width="28" height="28" alt="Qt" title="Qt / PySide">
+  <img src="https://cdn.simpleicons.org/kitsu" width="28" height="28" alt="Kitsu" title="Kitsu">
+  <img src="https://ayon.ynput.io/img/AYON_blackG_dot.svg" width="28" height="28" alt="AYON" title="AYON">
+</p>
 
 ## 🎨 VFX & Pipeline Tools
 
@@ -135,13 +149,3 @@ A mod for Hitman 3 that allows spawning items in-game, built on top of ZHM Mod S
 **VFX:** USD | Houdini | Maya | Arnold | Renderman
 
 **Pipeline:** Docker | Git | CI/CD | Qt/PySide
-
-
----
-
-## 📫 Contact
-
-Feel free to reach out for collaboration, questions, or feedback on any of my projects.
-
-[![Email](https://img.shields.io/badge/Email-Ahmed.hindy96%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:Ahmed.hindy96@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-ahmed--hindy96-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/ahmed-hindy96)
