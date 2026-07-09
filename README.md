@@ -1,5 +1,7 @@
 # Ahmed Hindy
 
+[ahmed-hindy.github.io](https://ahmed-hindy.github.io/)
+
 **VFX Pipeline Developer**
 `USD` • `Python` • `AYON` • `Kitsu` • `Houdini` • `Arnold`
 
@@ -61,6 +63,18 @@ A DCC-agnostic tool for ingestion, standardization, and conversion of material n
 
 ## 🎬 Production Tools
 
+### [Kitsu Desktop Launcher](https://github.com/Ahmed-Hindy/kitsu-desktop-launcher)
+A focused Windows desktop client that helps artists connect to Kitsu, keep studio settings available, and recover clearly from connection problems.
+
+**Tech Stack:** `TypeScript` `Tauri` `Kitsu`
+
+**Key Features:**
+- Guided studio and Kitsu URL setup
+- System-tray actions and browser fallback
+- Connection checks and copyable diagnostics
+
+---
+
 ### [Production-Ready Kitsu Docker Image](https://github.com/Ahmed-Hindy/Kitsu-Docker-Prod)
 A complete and production-ready Kitsu setup, ready to deploy with a few Docker commands.
 
@@ -75,17 +89,33 @@ A complete and production-ready Kitsu setup, ready to deploy with a few Docker c
 
 ## 🔧 Houdini Tools
 
-### [Arnold Obj Lights to Solaris Translator](https://github.com/Ahmed-Hindy/Arnold-husd-translator)
-a Houdini HUSD script that translates Obj Arnold lights into USD light prims with all their properties intact.
+### [Houdini Asset Relinker](https://github.com/Ahmed-Hindy/houdini_asset_relinker)
+A Houdini tool for auditing and safely relinking external scene dependencies, including textures, geometry caches, USD files, and HDAs.
 
-**Tech Stack:** `Python` `Houdini` `USD` `Arnold`
+**Tech Stack:** `Python` `Houdini` `PySide6` `USD`
+
+**Key Features:**
+- Scene-wide path audit with missing-reference detection
+- Search, filtering, and previewed find-and-replace operations
+- HDA library relinking and management
 
 ---
 
-### [Houdini External Drag and Drop Plugin](https://github.com/Ahmed-Hindy/drag_and_drop)
-a Houdini script that enables external drag-and-drop from file browser directly into Houdini's Network Editor.
+### [USD Scene Audit](https://github.com/Ahmed-Hindy/usd-scene-audit)
+Command-line OpenUSD scene-audit tools for checking geometry, naming, hierarchy, materials, and authored asset references.
 
-**Tech Stack:** `Python` `Houdini` `Qt`
+**Tech Stack:** `Python` `OpenUSD`
+
+---
+
+### Houdini Utilities
+Small Houdini workflow tools for renderer migration and faster scene assembly.
+
+**Tech Stack:** `Python` `Houdini` `USD` `Arnold` `Qt`
+
+**Tools:**
+- [Arnold OBJ Lights to Solaris Translator](https://github.com/Ahmed-Hindy/Arnold-husd-translator) — translates OBJ-level Arnold lights into Solaris/USD light prims.
+- [External Drag and Drop Plugin](https://github.com/Ahmed-Hindy/drag_and_drop) — enables external file-browser drag-and-drop directly into Houdini's Network Editor.
 
 ---
 
@@ -98,11 +128,6 @@ A mod for Hitman 3 that allows spawning items in-game, built on top of ZHM Mod S
 
 ---
 
-### [AxeFx_tools](https://github.com/Ahmed-Hindy/AxeFx_tools)
-Personal tools and utilities. Check out my other repositories for production-ready VFX tools!
-
----
-
 ## 🛠️ Tech Stack
 
 **Languages:** Python | C++
@@ -111,11 +136,6 @@ Personal tools and utilities. Check out my other repositories for production-rea
 
 **Pipeline:** Docker | Git | CI/CD | Qt/PySide
 
----
-
-## 📊 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ahmed-Hindy&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117)
 
 ---
 
