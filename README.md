@@ -75,7 +75,7 @@ A standalone command-line converter for OpenUSD, FBX, OBJ, STL, and glTF assets.
 
 ---
 
-## 🎨 Artist-Facing VFX Tools
+## 🎨 Tools for Artists
 
 ### [h_denoise_utils](https://github.com/Ahmed-Hindy/h_denoise_utils)
 A denoiser app for VFX that supports multipart EXR sequences with a bundled NVIDIA OptiX denoiser.
