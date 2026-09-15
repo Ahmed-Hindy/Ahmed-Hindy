@@ -29,19 +29,53 @@ My work is focused on solving production challenges: asset standardization, mate
   <img src="https://ayon.ynput.io/img/AYON_blackG_dot.svg" width="28" height="28" alt="AYON" title="AYON">
 </p>
 
-## 🎨 VFX & Pipeline Tools
+## ⭐ Featured Pipeline & USD Tools
 
-### [Render Kit](https://github.com/Ahmed-Hindy/renderkit)
-VFX-focused image-sequence to video converter with OIIO, OCIO, CRF quality control, and CLI/UI and production ready python api.
+### [AYON Katana](https://github.com/Ahmed-Hindy/ayon-katana)
+An AYON integration for Katana that connects asset, workfile, loader, publishing, and farm workflows to production pipeline conventions.
 
-**Tech Stack:** `Python` `OpenImageIO` `OpenColorIO` `Qt` `FFmpeg`
+**Tech Stack:** `Python` `AYON` `Katana` `USD` `Deadline`
 
 **Key Features:**
-- Zero dependencies. Everything bundled. 82MB package size
-- Artist-friendly UI
-- Batch processing with UI and CLI modes
+- Workfile, loading, publishing, and render/farm integration for Katana
+- Katana-native pipeline contracts for dependable scene and USD workflows
 
 ---
+
+### [Material Processor](https://github.com/Ahmed-Hindy/Materials-Processor)
+A cross-DCC tool for ingesting, standardizing, and converting complex material networks across renderers and OpenUSD workflows.
+
+**Tech Stack:** `Python` `USD` `MaterialX` `Arnold` `Redshift`
+
+**Key Features:**
+- Supports multiple render engines for both input and output
+- Bridges material interchange across DCC applications and USD
+
+---
+
+### [USD Optimize App](https://github.com/Ahmed-Hindy/usd-optimize-app)
+A portable CLI and GUI for optimizing OpenUSD scenes with safe whole-stage or selected-prim workflows.
+
+**Tech Stack:** `Python` `OpenUSD` `PySide6` `NVIDIA usd-optimize`
+
+**Key Features:**
+- Safe cleanup, geometry optimization, stage inspection, and overlap detection
+- Downloadable Windows package with the runtime included
+
+---
+
+### [Universal Scene Converter](https://github.com/Ahmed-Hindy/universal-scene-converter)
+A standalone command-line converter for OpenUSD, FBX, OBJ, STL, and glTF assets.
+
+**Tech Stack:** `OpenUSD` `C++` `PowerShell` `USD Fileformat Plugins`
+
+**Key Features:**
+- Converts between common production interchange formats
+- Includes a portable Windows release and batch-conversion workflows
+
+---
+
+## 🎨 Artist-Facing VFX Tools
 
 ### [h_denoise_utils](https://github.com/Ahmed-Hindy/h_denoise_utils)
 A denoiser app for VFX that supports multipart EXR sequences with a bundled NVIDIA OptiX denoiser.
@@ -55,6 +89,18 @@ A denoiser app for VFX that supports multipart EXR sequences with a bundled NVID
 
 ---
 
+### [Render Kit](https://github.com/Ahmed-Hindy/renderkit)
+VFX-focused image-sequence to video converter with OIIO, OCIO, CRF quality control, and CLI/UI and production ready python api.
+
+**Tech Stack:** `Python` `OpenImageIO` `OpenColorIO` `Qt` `FFmpeg`
+
+**Key Features:**
+- Zero dependencies. Everything bundled. 82MB package size
+- Artist-friendly UI
+- Batch processing with UI and CLI modes
+
+---
+
 ### [Substance Painter USD Creator](https://github.com/Ahmed-Hindy/Substance-Painter-Usd-Creator)
 A lightweight Substance Painter plugin that creates ASWF-compliant USD Assets.
 
@@ -64,15 +110,6 @@ A lightweight Substance Painter plugin that creates ASWF-compliant USD Assets.
 - ASWF-compliant USD Asset export.
 - Supports multiple render engines.
 
----
-
-### [Material Processor](https://github.com/Ahmed-Hindy/Materials-Processor)
-A DCC-agnostic tool for ingestion, standardization, and conversion of material networks for complex multi-input/multi-output material networks.
-
-**Tech Stack:** `Python` `USD` `MaterialX` `Arnold` `Redshift`
-
-**Key Features:**
-- supports multiple render engines for both input and output.
 ---
 
 ## 🎬 Production Tools
