@@ -29,116 +29,116 @@ My work is focused on solving production challenges: asset standardization, mate
   <img src="https://ayon.ynput.io/img/AYON_blackG_dot.svg" width="28" height="28" alt="AYON" title="AYON">
 </p>
 
-## 🎨 VFX & Pipeline Tools
+## ⭐ Featured Tools
 
-### [Render Kit](https://github.com/Ahmed-Hindy/renderkit)
-VFX-focused image-sequence to video converter with OIIO, OCIO, CRF quality control, and CLI/UI and production ready python api.
+### [USD Optimize App](https://github.com/Ahmed-Hindy/usd-optimize-app)
+Standalone CLI and GUI for optimizing OpenUSD stages.
 
-**Tech Stack:** `Python` `OpenImageIO` `OpenColorIO` `Qt` `FFmpeg`
+**Tags:** `OpenUSD` `Optimization` `NVIDIA` `PySide6` `CLI`
 
-**Key Features:**
-- Zero dependencies. Everything bundled. 82MB package size
-- Artist-friendly UI
-- Batch processing with UI and CLI modes
+---
+
+### [AYON Katana](https://github.com/Ahmed-Hindy/ayon-katana)
+Katana addon for AYON.
+
+**Tags:** `AYON` `Katana` `USD` `Pipeline`
+
+---
+
+### [Materials Processor](https://github.com/Ahmed-Hindy/Materials-Processor)
+Cross-DCC material conversion tool that supports Houdini, Maya, Blender, OpenUSD, and MaterialX.
+
+**Tags:** `Houdini` `Maya` `Blender` `USD` `MaterialX`
+
+---
+
+### [Universal Scene Converter](https://github.com/Ahmed-Hindy/universal-scene-converter)
+Standalone CLI for converting between OpenUSD, FBX, OBJ, STL, and glTF files.
+
+**Tags:** `OpenUSD` `FBX` `OBJ` `STL` `glTF` `CLI`
+
+---
+
+### [Kitsu Desktop](https://github.com/Ahmed-Hindy/kitsu-desktop-launcher)
+Windows desktop client for Kitsu built with Tauri, with system-tray actions.
+
+**Tags:** `Tauri` `TypeScript` `Kitsu` `Desktop`
+
+---
+
+### [Kitsu Docker Prod](https://github.com/Ahmed-Hindy/Kitsu-Docker-Prod)
+Production-ready Kitsu Docker stack.
+
+**Tags:** `Docker` `Kitsu` `Postgres` `Traefik` `Pipeline`
+
+---
+
+## 🎨 Supporting Tools
+
+### [RenderKit](https://github.com/Ahmed-Hindy/renderkit)
+Image-sequence to video tool with burn-ins and contact-sheet support.
+
+**Tags:** `PySide6` `OpenImageIO` `OpenColorIO` `FFmpeg`
 
 ---
 
 ### [h_denoise_utils](https://github.com/Ahmed-Hindy/h_denoise_utils)
-A denoiser app for VFX that supports multipart EXR sequences with a bundled NVIDIA OptiX denoiser.
+Standalone denoising GUI with bundled OptiX and OIDN, including multi-AOV EXR support.
 
-**Tech Stack:** `Python` `Qt` `NVIDIA OptiX`
+**Tags:** `NVIDIA` `OptiX` `Intel` `OIDN` `PySide6` `EXR`
 
-**Key Features:**
-- Batch denoise EXR sequences from GUI or headless API
-- Auto-detect AOVs and preserve source OpenEXR metadata
-- Zero dependencies
+---
+
+### [Houdini Asset Relinker](https://github.com/Ahmed-Hindy/houdini_asset_relinker)
+Houdini tool for relinking asset paths, including textures, geometry, and HDAs.
+
+**Tags:** `Houdini` `USD` `Asset Management` `Pipeline`
 
 ---
 
 ### [Substance Painter USD Creator](https://github.com/Ahmed-Hindy/Substance-Painter-Usd-Creator)
-A lightweight Substance Painter plugin that creates ASWF-compliant USD Assets.
+Substance Painter plugin for auto publishing layered USD assets.
 
-**Tech Stack:** `Python` `USD`
-
-**Key Features:**
-- ASWF-compliant USD Asset export.
-- Supports multiple render engines.
+**Tags:** `USD` `Substance Painter` `Materials` `Publishing`
 
 ---
 
-### [Material Processor](https://github.com/Ahmed-Hindy/Materials-Processor)
-A DCC-agnostic tool for ingestion, standardization, and conversion of material networks for complex multi-input/multi-output material networks.
+### [Houdini / USD Utilities](https://github.com/Ahmed-Hindy/Arnold-husd-translator)
+Houdini/Solaris utilities including an Arnold OBJ light to USD translator.
 
-**Tech Stack:** `Python` `USD` `MaterialX` `Arnold` `Redshift`
-
-**Key Features:**
-- supports multiple render engines for both input and output.
----
-
-## 🎬 Production Tools
-
-### [Kitsu Desktop Launcher](https://github.com/Ahmed-Hindy/kitsu-desktop-launcher)
-A focused Windows desktop client that helps artists connect to Kitsu, keep studio settings available, and recover clearly from connection problems.
-
-**Tech Stack:** `TypeScript` `Tauri` `Kitsu`
-
-**Key Features:**
-- Guided studio and Kitsu URL setup
-- System-tray actions and browser fallback
-- Connection checks and copyable diagnostics
-
----
-
-### [Production-Ready Kitsu Docker Image](https://github.com/Ahmed-Hindy/Kitsu-Docker-Prod)
-A complete and production-ready Kitsu setup, ready to deploy with a few Docker commands.
-
-**Tech Stack:** `Docker` `Kitsu` `Traefik` `FFMPEG` `Auto-Backups`
-
-**Key Features:**
-- Multi-container orchestration
-- Production-ready configuration
-- Easy deployment workflow
-
----
-
-## 🔧 Houdini Tools
-
-### [Houdini Asset Relinker](https://github.com/Ahmed-Hindy/houdini_asset_relinker)
-A Houdini tool for auditing and safely relinking external scene dependencies, including textures, geometry caches, USD files, and HDAs.
-
-**Tech Stack:** `Python` `Houdini` `PySide6` `USD`
-
-**Key Features:**
-- Scene-wide path audit with missing-reference detection
-- Search, filtering, and previewed find-and-replace operations
-- HDA library relinking and management
+**Tags:** `Houdini` `Solaris` `USD` `Arnold` `Artist Tools`
 
 ---
 
 ### [USD Scene Audit](https://github.com/Ahmed-Hindy/usd-scene-audit)
-Command-line OpenUSD scene-audit tools for checking geometry, naming, hierarchy, materials, and authored asset references.
+OpenUSD audit tools for mesh naming, hierarchy, materials, and layer structure.
 
-**Tech Stack:** `Python` `OpenUSD`
-
----
-
-### Houdini Utilities
-Small Houdini workflow tools for renderer migration and faster scene assembly.
-
-**Tech Stack:** `Python` `Houdini` `USD` `Arnold` `Qt`
-
-**Tools:**
-- [Arnold OBJ Lights to Solaris Translator](https://github.com/Ahmed-Hindy/Arnold-husd-translator) — translates OBJ-level Arnold lights into Solaris/USD light prims.
-- [External Drag and Drop Plugin](https://github.com/Ahmed-Hindy/drag_and_drop) — enables external file-browser drag-and-drop directly into Houdini's Network Editor.
+**Tags:** `Python` `OpenUSD` `SanityCheck` `CLI`
 
 ---
 
-## 🎵 Personal Projects
+### [hou-scene-inspector](https://github.com/Ahmed-Hindy/hou-scene-inspector)
+Houdini `.hip` inspector for reading node data.
+
+**Tags:** `Python` `Houdini` `HIP Files` `Parser` `CLI`
+
+---
+
+## 🧪 Infrastructure & Experiments
+
+### Homelab / Local LLMs
+Docker-based homelab for self-hosted tools and local LLM workflows.
+
+**Tags:** `Docker` `Homelab` `Local LLMs` `Self-hosting`
+
+---
+
+## 🎵 Side Quests
 
 ### [Hitman ItemSpawner](https://github.com/Ahmed-Hindy/Hitman-ItemSpawner)
-A mod for Hitman 3 that allows spawning items in-game, built on top of ZHM Mod SDK.
+Hitman 3 mod for spawning items in-game, built on top of ZHM Mod SDK.
 
-**Tech Stack:** `C++` `ZHMModSDK`
+**Tags:** `C++` `ZHMModSDK`
 
 ---
 
